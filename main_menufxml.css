@@ -1,0 +1,210 @@
+
+
+#addbook{
+   -fx-font-size: 14px;
+   -fx-background-color:#00ACC1;
+  
+    
+}
+
+#addbook:hover{
+  -fx-background-color:#5C6BC0;
+ 
+}
+
+#removebook{
+    
+    -fx-font-size: 14px;
+   -fx-background-color:#00ACC1;
+    
+}
+
+#removebook:hover{
+    
+    -fx-background-color:#5C6BC0;
+}
+
+#addmember{
+  -fx-font-size: 14px;
+   -fx-background-color:#00ACC1;
+   
+   
+
+  
+    
+}
+
+#addmember:hover{
+   -fx-background-color:#5C6BC0;
+  
+
+}
+
+#allbooks{
+   -fx-font-size: 14px;
+   -fx-background-color:#00ACC1;
+ 
+    
+}
+
+#allbooks:hover{
+   -fx-background-color:#5C6BC0;
+}
+
+#searchmember{
+    -fx-font-size: 14px;
+   -fx-background-color:#00ACC1;
+
+    
+}
+
+#searchmember:hover{
+   -fx-background-color:#5C6BC0;
+    
+}
+
+#allmembers{
+   -fx-font-size: 14px;
+   -fx-background-color:#00ACC1;
+
+    
+}
+
+#allmembers:hover{
+    -fx-background-color:#5C6BC0;
+    
+}
+
+#issuedbook{
+  -fx-font-size: 14px;
+  -fx-background-color:#00ACC1;
+  
+    
+}
+
+#issuedbook:hover{
+    -fx-background-color:#5C6BC0;
+    
+}
+
+#Logout{
+   -fx-font-size: 14px;
+   -fx-background-color:#006064;
+
+    
+}
+
+#Logout:hover{
+    -fx-background-color:#e53935;
+    
+}
+
+
+#issuebook{
+   -fx-font-size: 14px;
+   -fx-background-color:#00ACC1;
+
+    
+}
+
+#issuebook:hover{
+   -fx-background-color:#5C6BC0; 
+    
+}
+
+#returnbook{
+   -fx-font-size: 14px;
+   -fx-background-color:#00ACC1;
+
+    
+}
+
+#returnbook:hover{
+   -fx-background-color:#5C6BC0; 
+    
+}
+
+#searchbook{
+   -fx-font-size: 14px;
+   -fx-background-color:#00ACC1;
+ 
+    
+}
+
+
+#searchbook:hover{
+    -fx-background-color:#5C6BC0;
+    
+    
+}
+
+#adduser{
+    
+   -fx-background-image: url("/Library_Management/add.png"); 
+  
+}
+
+
+#adduser1{
+    
+   -fx-background-image: url("/Library_Management/add-user_1.png"); 
+  
+}
+
+
+#adduser2{
+    
+   -fx-background-image: url("/Library_Management/remove.png"); 
+  
+}
+
+#adduser3{
+    
+   -fx-background-image: url("/Library_Management/back-arrow.png"); 
+  
+}
+
+#adduser4{
+    
+   -fx-background-image: url("/Library_Management/book.png"); 
+  
+}
+
+
+
+#adduser5{
+    
+   -fx-background-image: url("/Library_Management/medical-book.png"); 
+  
+}
+
+
+#adduser6{
+    
+   -fx-background-image: url("/Library_Management/open-book_1.png"); 
+  
+}
+
+#adduser7{
+    
+   -fx-background-image: url("/Library_Management/books_2.png"); 
+  
+}
+
+#adduser8{
+    
+   -fx-background-image: url("/Library_Management/human-resources.png"); 
+  
+}
+
+#adduser9{
+    
+   -fx-background-image: url("/Library_Management/puzzle.png"); 
+  
+}
+
+.mainFxmlClass {
+      
+    -fx-background-image: url("/Library_Management/login_background.jpg");
+    
+}

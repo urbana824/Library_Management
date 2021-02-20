@@ -1,0 +1,56 @@
+
+#B_Id{
+   
+    -fx-background-radius:18;
+    
+    
+}
+
+#Btitle{
+    
+   -fx-background-radius:18;   
+}
+
+#Author{
+    
+    -fx-background-radius:18;      
+    
+}
+
+#B_Publisher{
+    
+    -fx-background-radius:18;      
+    
+}
+
+#Cancel_addBook{
+    
+   -fx-font-size: 14px;
+   -fx-background-color:#5C6BC0;
+    
+}
+
+#Cancel_addBook:hover{
+    
+   -fx-background-color:#BF360C;
+    
+}
+
+#Save_addbook{
+    
+     -fx-font-size: 14px;
+     -fx-background-color:#5C6BC0;
+    
+}
+
+#Save_addbook:hover{
+    
+     -fx-background-color:#2E7D32;
+    
+}
+
+
+.mainFxmlClass {
+    -fx-background-image: url("/Library_Management/login_background.jpg");
+
+}

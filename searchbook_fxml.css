@@ -1,0 +1,52 @@
+
+#Bookname{
+       -fx-background-radius:18;
+    
+}
+
+#bookid{
+     -fx-text-fill: #E0E0E0;
+    
+}
+
+#author{
+    
+     -fx-text-fill: #E0E0E0;
+}
+
+#pub{
+    
+     -fx-text-fill: #E0E0E0;
+}
+
+#Search{
+    
+     -fx-font-size: 14px;
+     -fx-background-color:#5C6BC0;
+    
+}
+
+#Search:hover{
+    
+     -fx-background-color:#2E7D32;
+    
+}
+
+
+#cancel{
+   -fx-font-size: 14px;
+   -fx-background-color:#5C6BC0;
+}
+
+
+#cancel:hover{
+    
+   -fx-background-color:#BF360C;  
+    
+    
+}
+
+
+.mainFxmlClass {
+  -fx-background-image: url("/Library_Management/login_background.jpg");
+}

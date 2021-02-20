@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="issstable" prefHeight="667.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="Library_Management.Issued_FXMLController">
+    <stylesheets>
+        <URL value="@issued_fxml.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="isstab" layoutY="100.0" prefHeight="600.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="MemId" prefWidth="300.0" text="Member Id" />
+          <TableColumn fx:id="BookId" prefWidth="299.0" text="Book Id" />
+        </columns>
+      </TableView>
+      <Button fx:id="gomain" layoutX="36.0" layoutY="46.0" mnemonicParsing="false" onAction="#Backtomainmenu" prefHeight="23.0" prefWidth="105.0" text="Back" textFill="#fffefe" />
+      <Button fx:id="view" layoutX="457.0" layoutY="46.0" mnemonicParsing="false" onAction="#viewtable" prefHeight="23.0" prefWidth="105.0" text="View" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+#Mid{
+    
+   -fx-background-radius:18;   
+    
+}
+
+#Bid{
+    -fx-background-radius:18;  
+    
+}
+
+#Cancel{
+    
+     -fx-font-size: 14px;
+   -fx-background-color:#5C6BC0;  
+}
+
+#Cancel:hover{
+    -fx-background-color:#BF360C;   
+    
+}
+
+#returnbook{
+    
+  -fx-font-size: 14px;
+     -fx-background-color:#5C6BC0;  
+    
+}
+
+
+#returnbook:hover{
+    -fx-background-color:#2E7D32; 
+     
+    
+}
+
+
+.mainFxmlClass {
+-fx-background-image: url("/Library_Management/login_background.jpg");
+}

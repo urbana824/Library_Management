@@ -1,0 +1,57 @@
+#gomain2{
+    
+   -fx-font-size: 14px;
+   -fx-background-color:#5C6BC0; 
+}
+#gomain2:hover{
+     
+-fx-background-color:#BF360C; 
+
+}
+
+#ViewMember{
+    
+   -fx-font-size: 14px;
+   -fx-background-color:#5C6BC0; 
+    
+}
+
+#ViewMember:hover{
+    
+    -fx-background-color:#2E7D32;   
+    
+}
+
+#table2{
+    -fx-background-image: url("/Library_Management/login_background.jpg"); 
+   
+     
+}
+
+
+#MemberID{
+    -fx-background-image: url("/Library_Management/login_background.jpg");
+    -fx-text-fill: #E0E0E0;
+}
+
+#Member_Name{
+    
+ -fx-background-image: url("/Library_Management/login_background.jpg");        
+    -fx-text-fill: #E0E0E0;
+}
+
+#Contact{
+    -fx-background-image: url("/Library_Management/login_background.jpg");
+  -fx-text-fill: #E0E0E0;
+}
+
+#Email{
+   -fx-background-image: url("/Library_Management/login_background.jpg");     
+     -fx-text-fill: #E0E0E0;
+}
+
+#Add{
+  -fx-background-image: url("/Library_Management/login_background.jpg");  
+    -fx-text-fill: #E0E0E0; 
+}
+

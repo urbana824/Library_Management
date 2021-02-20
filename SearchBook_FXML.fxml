@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="searchbook" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Library_Management.SearchBook_FXMLController">
+    <stylesheets>
+        <URL value="@searchbook_fxml.css" />
+    </stylesheets>
+   <children>
+      <TextField fx:id="Bookname" layoutX="52.0" layoutY="99.0" prefHeight="37.0" prefWidth="333.0" promptText="Enter Book Name" />
+      <Button fx:id="Search" layoutX="469.0" layoutY="99.0" mnemonicParsing="false" onAction="#HandleSearch" prefHeight="38.0" prefWidth="90.0" text="Search" textFill="WHITE" />
+      <Button fx:id="cancel" layoutX="469.0" layoutY="320.0" mnemonicParsing="false" onAction="#HanndleCancel" prefHeight="38.0" prefWidth="90.0" text="Cancel" textFill="WHITE" />
+      <Label layoutX="62.0" layoutY="183.0" prefHeight="25.0" prefWidth="90.0" text="Book Id :" textFill="WHITE" />
+      <Label layoutX="62.0" layoutY="224.0" prefHeight="25.0" prefWidth="90.0" text="Author :" textFill="WHITE" />
+      <Label layoutX="62.0" layoutY="264.0" prefHeight="25.0" prefWidth="90.0" text="Publisher :" textFill="WHITE" />
+      <Label fx:id="bookid" layoutX="198.0" layoutY="187.0" prefHeight="25.0" prefWidth="218.0" />
+      <Label fx:id="author" layoutX="198.0" layoutY="224.0" prefHeight="25.0" prefWidth="218.0" />
+      <Label fx:id="pub" layoutX="198.0" layoutY="264.0" prefHeight="25.0" prefWidth="218.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,70 @@
+
+#M_ID{
+  
+     -fx-background-radius:18;
+    
+}
+
+#M_Name{
+    
+  -fx-background-radius:18;   
+    
+}
+
+
+#Phn{
+    
+  -fx-background-radius:18;   
+    
+    
+}
+
+#Email{
+    
+  -fx-background-radius:18;   
+    
+}
+
+#M_address{
+    
+ -fx-background-radius:18;    
+    
+}
+
+#CancelAdd_member{
+    
+   -fx-font-size: 14px;
+   -fx-background-color:#5C6BC0;  
+    
+}
+
+#CancelAdd_member:hover{
+    
+    
+   -fx-background-color:#BF360C;  
+    
+}
+
+
+#SaveAddmember{
+    
+    
+     -fx-font-size: 14px;
+     -fx-background-color:#5C6BC0;
+    
+    
+}
+
+#SaveAddmember:hover{
+    
+  -fx-background-color:#2E7D32;   
+    
+    
+}
+
+
+.mainFxmlClass {
+
+        -fx-background-image: url("/Library_Management/login_background.jpg");
+
+}

@@ -1,0 +1,51 @@
+#gomain{
+  -fx-font-size: 14px;
+   -fx-background-color:#5C6BC0;   
+    
+}
+#gomain:hover{
+   -fx-background-color:#BF360C; 
+ 
+    
+}
+#view{
+     -fx-font-size: 14px;
+   -fx-background-color:#5C6BC0; 
+    
+}
+
+#view:hover{
+    
+    -fx-background-color:#2E7D32;   
+}
+
+#table{
+    
+       -fx-background-image: url("/Library_Management/login_background.jpg"); 
+ 
+}
+
+#BookID{
+    -fx-background-image: url("/Library_Management/login_background.jpg");
+    -fx-text-fill: #E0E0E0;
+    
+}
+
+#BookTitle{
+    -fx-background-image: url("/Library_Management/login_background.jpg");
+    -fx-text-fill: #E0E0E0;
+    
+}
+
+#Author{
+    
+    -fx-background-image: url("/Library_Management/login_background.jpg");
+    -fx-text-fill: #E0E0E0;
+}
+
+#Publisher{
+    
+    -fx-background-image: url("/Library_Management/login_background.jpg");
+    -fx-text-fill: #E0E0E0;
+}
+

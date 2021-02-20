@@ -1,0 +1,39 @@
+#memberid{
+    -fx-background-radius:18; 
+    
+}
+
+#bookid{
+    
+  -fx-background-radius:18;
+    -fx-text-fill: #212121;
+    
+}
+
+#backmenu{
+   -fx-font-size: 14px;
+   -fx-background-color:#5C6BC0; 
+    
+}
+
+#backmenu:hover{
+   -fx-background-color:#BF360C;  
+    
+}
+
+#sub{
+    -fx-font-size: 14px;
+     -fx-background-color:#5C6BC0;
+    
+}
+
+
+#sub:hover{
+    
+     -fx-background-color:#2E7D32; 
+    
+}
+
+.mainFxmlClass {
+-fx-background-image: url("/Library_Management/login_background.jpg");
+}

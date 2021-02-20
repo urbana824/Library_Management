@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" fx:id="background" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Library_Management.LoginFXMLController">
+    <stylesheets>
+        <URL value="@loginfxml.css" />
+    </stylesheets>
+   <children>
+      <VBox fx:id="back_image" layoutX="117.0" layoutY="20.0" prefHeight="400.0" prefWidth="193.0" stylesheets="@loginfxml.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="407.0" AnchorPane.topAnchor="0.0" />
+      <TextField fx:id="usernametxt" layoutX="313.0" layoutY="214.0" promptText="Enter Username" />
+      <Label fx:id="Loginpage" layoutX="313.0" layoutY="130.0" prefHeight="25.0" prefWidth="149.0" text="          Login" textFill="#e4ebeb" />
+      <Label fx:id="username" layoutX="225.0" layoutY="214.0" text="Username:" textFill="WHITE" />
+      <Label fx:id="password" layoutX="225.0" layoutY="275.0" prefHeight="38.0" prefWidth="75.0" text="Password:" textFill="WHITE" />
+      <Button fx:id="submitButton" layoutX="473.0" layoutY="340.0" mnemonicParsing="false" onAction="#HandlesubmitButton" text="Submit" textFill="WHITE" />
+      <Label fx:id="Lib_Management" layoutX="250.0" layoutY="56.0" prefHeight="30.0" prefWidth="276.0" text="      Library Management " textFill="#8fe4e4" />
+      <PasswordField fx:id="passtxt" layoutX="313.0" layoutY="282.0" promptText="Enter Password" />
+   </children>
+</AnchorPane>

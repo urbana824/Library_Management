@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="tablepane" prefHeight="667.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Library_Management.AllBooksFXMLController">
+    <stylesheets>
+        <URL value="@allbooksfxml.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="table" layoutY="67.0" prefHeight="600.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="67.0">
+        <columns>
+          <TableColumn fx:id="BookID" prefWidth="150.0" text="Book ID" />
+          <TableColumn fx:id="BookTitle" minWidth="0.0" prefWidth="150.0" text="Book Title" />
+            <TableColumn fx:id="Author" prefWidth="150.0" text="Author" />
+            <TableColumn fx:id="Publisher" prefWidth="152.0" text="Publisher" />
+        </columns>
+      </TableView>
+      <Button fx:id="gomain" layoutX="20.0" layoutY="22.0" mnemonicParsing="false" onAction="#Backtomainmenu" prefHeight="23.0" prefWidth="105.0" text="Back" textFill="#fffefe" />
+      <Button fx:id="view" layoutX="475.0" layoutY="22.0" mnemonicParsing="false" onAction="#viewtable" prefHeight="23.0" prefWidth="105.0" text="View" textFill="WHITE" />
+   </children>
+</AnchorPane>
